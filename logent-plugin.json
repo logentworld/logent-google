@@ -1,0 +1,9 @@
+{
+  "id": "com.sleepysoong.logent.google",
+  "key": "sleepysoong:google",
+  "name": "Google",
+  "entry": "com.sleepysoong.logent.google.GooglePlugin",
+  "dependencies": [],
+  "apiMin": 4,
+  "apiMax": 4
+}

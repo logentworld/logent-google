@@ -1,0 +1,12 @@
+# logent-google 안내
+
+이 저장소는 Logent가 직접 작성한 독립 `.lpg` 플러그인이에요. 다른 플러그인 저장소의
+소스나 바이너리를 복사하지 않았어요.
+
+- 플러그인 id: `com.sleepysoong.logent.google`
+- 공개 API: `com.sleepysoong.logent:logent-plugin-api:4.5.0`
+  (Maven 좌표와 소스 커밋은 `plugin-api.lock`에 고정해요.)
+- 라이선스: GNU General Public License v3.0 (`LICENSE`)
+- 패키징 정의: `logent-plugin.json`, key `sleepysoong:google`
+- Kotlin 표준 라이브러리·kotlinx-coroutines·kotlinx-serialization은 Apache License 2.0
+  Maven 의존성으로만 받고 소스를 포함하지 않아요.
