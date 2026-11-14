@@ -188,7 +188,13 @@ Drive 쿼리 이스케이프, Gmail 본문 디코드를 실제 Google API 호출
 ./scripts/test.sh
 ```
 
-릴리스 산출물과 서명은 부모 저장소의 빌드 절차를 따라요. 이 저장소에는 서명 키나 비밀값을
+`.lpg` 패키지는 키 없이 다음 명령으로 만들어요.
+
+```bash
+./scripts/build.sh -PlogentPluginApiMavenLocal=true
+```
+
+산출물은 `build/dist/logent-google-v<version>.lpg` 하나예요. 이 저장소에는 비밀값을
 커밋하지 않아요.
 
 ## 라이선스
